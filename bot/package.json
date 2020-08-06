@@ -1,0 +1,28 @@
+{
+  "name": "streamstellar",
+  "version": "1.0.0",
+  "description": "streamstellar for twitch",
+  "main": "src/main.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {
+    "graphql-request": "^2.0.0",
+    "node-fetch": "^2.6.0",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "tsc && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iosamuel/streamstellar.git"
+  },
+  "author": "IOSamuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iosamuel/streamstellar/issues"
+  },
+  "homepage": "https://github.com/iosamuel/streamstellar#readme"
+}
